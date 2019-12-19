@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="Home"
+            app:showAsAction="ifRoom"></item>
+
+    </group>
+    <item
+        android:title="İŞLEMLER"
+        android:icon="@drawable/user_"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/anasayfa_item"
+                android:icon="@drawable/ic_home"
+                android:title="ANASAYFA"
+                ></item>
+            <item
+                android:id="@+id/kur_item"
+                android:icon="@drawable/user_"
+                android:title="CANLI KUR"></item>
+            <item
+                android:id="@+id/past_item"
+                android:icon="@drawable/ic_home"
+                android:title="GEÇMİŞ"></item>
+            <item
+                android:id="@+id/hesap_bilgi"
+                android:icon="@drawable/ic_home"
+                android:title="HESAP"></item>
+            <item
+                android:id="@+id/money_transfer"
+                android:icon="@drawable/ic_home"
+                android:title="TRANSFER"></item>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/user_"
+                android:title="ÇIKIŞ"></item>
+        </menu>
+
+    </item>
+</menu>
